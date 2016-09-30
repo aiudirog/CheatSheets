@@ -31,6 +31,8 @@ new_list = sorted(list_, key=some_funtion_that_takes_an_arg)
 # Sort list by last character of string. See Lambda section.
 new_list = sorted(list_, key=lamba x: x[-1])
 
+# Generate a list in one line
+sqaures = [x**2 for x in range(100)]
 
 
 ####################################################################
@@ -59,6 +61,9 @@ for key in dictionary:
 
 # One can add a new key|value pair to a dictionary as such:
 dictionary["three"] = 3
+
+# Generate a dictionary in one line
+squares = {x:x**2 for x in range(100)}
 
 
 ####################################################################
